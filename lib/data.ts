@@ -80,7 +80,7 @@ export const projects = [
     domain: "AI / Dev Tools",
     highlight: true,
     github: "https://github.com/AntoineVassort/roast-my-lp",
-    demo: "https://roastmylp.vercel.app",
+    demo: "https://roastmy-lp.vercel.app",
   },
   {
     id: "sports-prediction-platform",
