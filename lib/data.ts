@@ -104,7 +104,7 @@ export const projects = [
     domain: "Tooling / Browser",
     highlight: true,
     github: "https://github.com/AntoineVassort/autopip",
-    demo: "https://raw.githubusercontent.com/AntoineVassort/autopip/master/userscript/autopip.user.js",
+    demo: "",
   },
 ]
 

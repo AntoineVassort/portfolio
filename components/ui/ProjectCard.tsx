@@ -64,7 +64,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
               rel="noopener noreferrer"
               className="font-mono text-xs text-accent hover:text-text-primary transition-colors"
             >
-              {project.id === 'auto-pip' ? 'Install →' : 'Demo →'}
+              Demo →
             </a>
           )}
         </div>
