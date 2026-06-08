@@ -71,6 +71,18 @@ export const experiences = [
 
 export const projects = [
   {
+    id: "roast-my-lp",
+    title: "Roast My LP",
+    subtitle: "Analyse IA de landing pages",
+    description:
+      "Soumet ta landing page via screenshot ou URL et reçois un verdict IA sans filtre. Mode Ramsay (brutal) ou Sweet (bienveillant) — score /10, analyse visuelle, CTA, hiérarchie et actions concrètes. Privacy-first, zéro stockage.",
+    tags: ["Next.js", "Google Gemini", "OpenAI", "Vision", "TypeScript", "Tailwind"],
+    domain: "AI / Dev Tools",
+    highlight: true,
+    github: "https://github.com/AntoineVassort/roast-my-lp",
+    demo: "https://roastmylp.vercel.app",
+  },
+  {
     id: "sports-prediction-platform",
     title: "Sports Prediction Platform",
     subtitle: "BasketOverPrediction + TennisOverPrediction",
@@ -87,12 +99,12 @@ export const projects = [
     title: "AutoPiP",
     subtitle: "Extension Chrome/Firefox + Userscript",
     description:
-      "PiP automatique au changement d'onglet — détecte la plus grande vidéo en cours, ignore les pubs muettes. Support SPAs (YouTube, Twitch, Vimeo), MV3, zéro tracking. MIT.",
+      "PiP automatique au changement d'onglet — détecte la plus grande vidéo en cours, ignore les pubs muettes. Support SPAs (YouTube, Twitch, Vimeo), MV3, zéro tracking. Compatible Chrome, Firefox, Edge, Brave. MIT.",
     tags: ["JavaScript", "Chrome Extension", "MV3", "Userscript", "Web APIs"],
     domain: "Tooling / Browser",
-    highlight: false,
+    highlight: true,
     github: "https://github.com/AntoineVassort/autopip",
-    demo: "",
+    demo: "https://raw.githubusercontent.com/AntoineVassort/autopip/master/userscript/autopip.user.js",
   },
 ]
 
