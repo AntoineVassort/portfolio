@@ -83,16 +83,16 @@ export const projects = [
     demo: "https://roastmy-lp.vercel.app",
   },
   {
-    id: "sports-prediction-platform",
-    title: "Sports Prediction Platform",
-    subtitle: "BasketOverPrediction + TennisOverPrediction",
+    id: "courtvision",
+    title: "CourtVision",
+    subtitle: "Probabilités tennis calibrées et prouvées",
     description:
-      "Système ML pour les marchés Over/Under basketball et tennis. Ratings Elo custom, datasets ATP/WTA.",
-    tags: ["Python", "Machine Learning", "Elo Rating"],
+      "Prédit le vainqueur des matchs ATP, WTA, Challenger et WTA 125 avec des probabilités calibrées : LightGBM + Platt sur ~193k matchs, Elo maison. Hors échantillon 2026 : 68,6 % de précision, ECE 0,015. Chaque prédiction est horodatée, et le diagramme de fiabilité est public.",
+    tags: ["Python", "LightGBM", "FastAPI", "Next.js", "Elo Rating", "SQLite"],
     domain: "ML / Data",
     highlight: true,
     github: "",
-    demo: "",
+    demo: "https://courtvision-lovat.vercel.app",
   },
   {
     id: "auto-pip",
