@@ -13,7 +13,7 @@ export function SkillCard({ skill }: SkillCardProps) {
         <Icon className="text-2xl text-text-muted group-hover:text-accent transition-colors shrink-0" />
       ) : (
         <span className="font-mono text-sm text-text-muted group-hover:text-accent transition-colors leading-none select-none">
-          //
+          {'//'}
         </span>
       )}
       <span className="font-mono text-[10px] text-text-muted group-hover:text-accent transition-colors text-center leading-tight">

@@ -4,7 +4,7 @@ export const personal = {
   title: "Administrateur Système & DevOps",
   subtitle: "Bachelor RNCP Niveau 6 · Paris",
   tagline: "Je construis des systèmes qui apprennent, automatisent et prédisent.",
-  status: "En recherche de stage",
+  status: "En recherche de CDI",
   location: "Biarritz / Paris",
   phone: "06 37 95 33 21",
   bio: [
@@ -31,7 +31,7 @@ export const experiences = [
       "Déploiement et gestion de services Cloud (AWS, Azure, GCP).",
       "Supervision, monitoring et gestion des incidents en production.",
     ],
-    current: true,
+    current: false,
   },
   {
     id: "freelance-dev",
@@ -87,8 +87,8 @@ export const projects = [
     title: "CourtVision",
     subtitle: "Probabilités tennis calibrées et prouvées",
     description:
-      "Prédit le vainqueur des matchs ATP, WTA, Challenger et WTA 125 avec des probabilités calibrées : LightGBM + Platt sur ~193k matchs, Elo maison. Hors échantillon 2026 : 68,6 % de précision, ECE 0,015. Chaque prédiction est horodatée, et le diagramme de fiabilité est public.",
-    tags: ["Python", "LightGBM", "FastAPI", "Next.js", "Elo Rating", "SQLite"],
+      "Prédit le vainqueur des matchs ATP, WTA, Challenger et WTA 125 : LightGBM + Platt sur ~193k matchs, Elo maison. Hors échantillon 2026 : 68,6 % de précision, ECE 0,015, fiabilité publique. En production 24 h/24 sans frais : API sur VM Oracle Cloud (systemd, Caddy HTTPS), worker supervisé qui pousse des snapshots atomiques toutes les 10 min, front sur Vercel.",
+    tags: ["Python", "LightGBM", "FastAPI", "Next.js", "Oracle Cloud", "systemd", "Caddy"],
     domain: "ML / Data",
     highlight: true,
     github: "",
@@ -112,6 +112,5 @@ export const skills = {
   "DevOps & Infra": ["Linux", "Docker", "Kubernetes", "Ansible", "Terraform", "CI/CD", "Nginx", "Bash", "GitLab CI", "Jenkins"],
   "Cloud": ["AWS", "Azure", "GCP", "Vercel", "GitHub Actions"],
   "Développement": ["Python", "TypeScript", "JavaScript", "React", "Next.js", "Node.js", "Ruby on Rails", "REST API", "SQL"],
-  "Data & ML": ["Pandas", "Scikit-learn", "Elo Rating"],
-  "Blockchain": ["Solana", "Web3.py", "Helius DAS"],
+  "Data & ML": ["Pandas", "Scikit-learn", "LightGBM", "Elo Rating"],
 }
