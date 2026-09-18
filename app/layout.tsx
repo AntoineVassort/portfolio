@@ -2,12 +2,16 @@ import type { Metadata, Viewport } from 'next'
 import { Playfair_Display, JetBrains_Mono } from 'next/font/google'
 import './globals.css'
 import { Providers } from './providers'
+import { SITE_URL } from '@/lib/site'
 
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'Person',
   name: 'Antoine Vassort',
+  url: SITE_URL,
   jobTitle: 'Administrateur Système & DevOps',
+  description: 'Administrateur Système & DevOps : infrastructure, automatisation et machine learning.',
+  knowsAbout: ['DevOps', 'Linux', 'Docker', 'Kubernetes', 'CI/CD', 'Python', 'Machine Learning', 'Next.js'],
   sameAs: [
     'https://github.com/AntoineVassort',
     'https://linkedin.com/in/antoine-vassort',
@@ -37,21 +41,25 @@ export const viewport: Viewport = {
 }
 
 export const metadata: Metadata = {
-  metadataBase: new URL(
-    process.env.VERCEL_URL
-      ? `https://${process.env.VERCEL_URL}`
-      : 'http://localhost:3000',
-  ),
-  title: 'Antoine — Administrateur Système & DevOps',
+  metadataBase: new URL(SITE_URL),
+  title: 'Antoine Vassort — Administrateur Système & DevOps',
   description:
-    "Portfolio d'Antoine. Systèmes qui apprennent, automatisent et prédisent. Bachelor RNCP Niveau 6, Paris.",
-  keywords: ['DevOps', 'Machine Learning', 'Python', 'Next.js', 'Solana', 'Automation'],
-  authors: [{ name: 'Antoine' }],
+    "Portfolio d'Antoine Vassort. Systèmes qui apprennent, automatisent et prédisent. Bachelor RNCP Niveau 6, Paris.",
+  keywords: ['Antoine Vassort', 'DevOps', 'Machine Learning', 'Python', 'Next.js', 'Automation'],
+  authors: [{ name: 'Antoine Vassort' }],
+  alternates: { canonical: '/' },
   openGraph: {
-    title: 'Antoine — Administrateur Système & DevOps',
+    title: 'Antoine Vassort — Administrateur Système & DevOps',
+    url: '/',
     description: 'Systèmes qui apprennent, automatisent et prédisent.',
     type: 'website',
     locale: 'fr_FR',
+    siteName: 'Antoine Vassort',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Antoine Vassort — Administrateur Système & DevOps',
+    description: 'Systèmes qui apprennent, automatisent et prédisent.',
   },
 }
 

@@ -2,8 +2,8 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'CV — Antoine',
-  description: "Curriculum vitae d'Antoine, Administrateur Système & DevOps.",
+  title: 'CV — Antoine Vassort',
+  description: "Curriculum vitae d'Antoine Vassort, Administrateur Système & DevOps.",
 }
 
 export default function CVPage() {
@@ -36,7 +36,7 @@ export default function CVPage() {
 
       <iframe
         src="/Antoine_Vassort_2026.pdf"
-        title="CV Antoine"
+        title="CV Antoine Vassort"
         className="flex-1 min-h-0 w-full border-0"
       />
     </div>

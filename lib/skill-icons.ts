@@ -22,8 +22,6 @@ import {
   SiScikitlearn,
   SiVercel,
   SiGithubactions,
-  SiSolana,
-  SiEthereum,
 } from 'react-icons/si'
 import {
   TbApi,
@@ -31,7 +29,7 @@ import {
   TbBrandAzure,
   TbChess,
   TbInfinity,
-  TbSatellite,
+  TbBinaryTree,
   TbDatabase,
 } from 'react-icons/tb'
 
@@ -61,10 +59,8 @@ export const skillIcons: Record<string, IconType> = {
   SQL: TbDatabase,
   Pandas: SiPandas,
   'Scikit-learn': SiScikitlearn,
+  LightGBM: TbBinaryTree,
   'Elo Rating': TbChess,
   Vercel: SiVercel,
   'GitHub Actions': SiGithubactions,
-  Solana: SiSolana,
-  'Web3.py': SiEthereum,
-  'Helius DAS': TbSatellite,
 }
