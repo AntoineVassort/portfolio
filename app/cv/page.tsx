@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'CV — Antoine Vassort',
+  title: 'CV | Antoine Vassort',
   description: "Curriculum vitae d'Antoine Vassort, Administrateur Système & DevOps.",
 }
 

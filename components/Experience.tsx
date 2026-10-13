@@ -26,7 +26,7 @@ export function Experience() {
           viewport={{ once: true, margin: '-80px' }}
           transition={{ duration: 0.6, ease: 'easeOut' }}
         >
-          <SectionTitle label="01 — Parcours" title="Expérience & Formation" />
+          <SectionTitle label="01 / Parcours" title="Expérience & Formation" />
         </motion.div>
 
         <motion.div

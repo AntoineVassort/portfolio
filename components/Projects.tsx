@@ -27,7 +27,7 @@ export function Projects() {
           viewport={{ once: true, margin: '-80px' }}
           transition={{ duration: 0.6, ease: 'easeOut' }}
         >
-          <SectionTitle label="02 — Projets" title="Réalisations" />
+          <SectionTitle label="02 / Projets" title="Réalisations" />
         </motion.div>
 
         <motion.div

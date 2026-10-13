@@ -27,7 +27,7 @@ export function Skills() {
           viewport={{ once: true, margin: '-80px' }}
           transition={{ duration: 0.6, ease: 'easeOut' }}
         >
-          <SectionTitle label="03 — Compétences" title="Stack technique" />
+          <SectionTitle label="03 / Compétences" title="Stack technique" />
         </motion.div>
 
         <motion.div

@@ -22,7 +22,7 @@ export function Contact() {
           viewport={{ once: true, margin: '-80px' }}
           transition={{ duration: 0.6, ease: 'easeOut' }}
         >
-          <SectionTitle label="04 — Contact" title="Me contacter" />
+          <SectionTitle label="04 / Contact" title="Me contacter" />
         </motion.div>
 
         <motion.div
@@ -54,7 +54,7 @@ export function Contact() {
               ))}
             </div>
           ) : (
-            <p className="font-mono text-xs text-text-muted tracking-widest">— liens à venir</p>
+            <p className="font-mono text-xs text-text-muted tracking-widest">/ liens à venir</p>
           )}
         </motion.div>
       </div>

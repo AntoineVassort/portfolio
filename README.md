@@ -1,4 +1,4 @@
-# Antoine Vassort — Portfolio
+# Antoine Vassort | Portfolio
 
 Administrateur Système & DevOps. Je construis des systèmes qui apprennent, automatisent et prédisent.
 

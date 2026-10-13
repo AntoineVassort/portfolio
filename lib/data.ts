@@ -9,7 +9,7 @@ export const personal = {
   phone: "06 37 95 33 21",
   bio: [
     "Passionné par l'automatisation et la donnée, je conçois des systèmes capables de prendre des décisions intelligentes en temps réel.",
-    "Mon approche mêle rigueur DevOps et expérimentation ML — de l'infrastructure aux algorithmes prédictifs.",
+    "Mon approche mêle rigueur DevOps et expérimentation ML, de l'infrastructure aux algorithmes prédictifs.",
   ],
   github: "https://github.com/AntoineVassort",
   linkedin: "https://linkedin.com/in/antoine-vassort",
@@ -21,7 +21,7 @@ export const experiences = [
   {
     id: "bachelor-devops",
     type: "education" as const,
-    period: "2025 — 2026",
+    period: "2025-2026",
     title: "Bachelor Administrateur Système DevOps",
     organization: "Titre RNCP Niveau 6",
     bullets: [
@@ -36,7 +36,7 @@ export const experiences = [
   {
     id: "freelance-dev",
     type: "work" as const,
-    period: "2023 — 2025",
+    period: "2023-2025",
     title: "Développeur Web Freelance",
     organization: "",
     bullets: [
@@ -49,7 +49,7 @@ export const experiences = [
     id: "le-wagon",
     type: "education" as const,
     period: "2023",
-    title: "Le Wagon BootCamp — Développeur Full Stack",
+    title: "Le Wagon BootCamp : Développeur Full Stack",
     organization: "Titre RNCP 35653 Niveau 6",
     bullets: [
       "Projet principal : plateforme de certification d'expériences professionnelles (Ruby on Rails, JavaScript, PostgreSQL).",
@@ -61,8 +61,8 @@ export const experiences = [
   {
     id: "bts-sio",
     type: "education" as const,
-    period: "2019 — 2020",
-    title: "BTS SIO — Option Développement",
+    period: "2019-2020",
+    title: "BTS SIO, Option Développement",
     organization: "",
     bullets: [],
     current: false,
@@ -75,7 +75,7 @@ export const projects = [
     title: "Roast My LP",
     subtitle: "Analyse IA de landing pages",
     description:
-      "Soumet ta landing page via screenshot ou URL et reçois un verdict IA sans filtre. Mode Ramsay (brutal) ou Sweet (bienveillant) — score /10, analyse visuelle, CTA, hiérarchie et actions concrètes. Privacy-first, zéro stockage.",
+      "Soumet ta landing page via screenshot ou URL et reçois un verdict IA sans filtre. Mode Ramsay (brutal) ou Sweet (bienveillant) : score /10, analyse visuelle, CTA, hiérarchie et actions concrètes. Privacy-first, zéro stockage.",
     tags: ["Next.js", "Google Gemini", "OpenAI", "Vision", "TypeScript", "Tailwind"],
     domain: "AI / Dev Tools",
     highlight: true,
@@ -99,7 +99,7 @@ export const projects = [
     title: "AutoPiP",
     subtitle: "Extension Chrome/Firefox + Userscript",
     description:
-      "PiP automatique au changement d'onglet — détecte la plus grande vidéo en cours, ignore les pubs muettes. Support SPAs (YouTube, Twitch, Vimeo), MV3, zéro tracking. Compatible Chrome, Firefox, Edge, Brave. MIT.",
+      "PiP automatique au changement d'onglet : détecte la plus grande vidéo en cours, ignore les pubs muettes. Support SPAs (YouTube, Twitch, Vimeo), MV3, zéro tracking. Compatible Chrome, Firefox, Edge, Brave. MIT.",
     tags: ["JavaScript", "Chrome Extension", "MV3", "Userscript", "Web APIs"],
     domain: "Tooling / Browser",
     highlight: true,

@@ -42,14 +42,14 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: 'Antoine Vassort — Administrateur Système & DevOps',
+  title: 'Antoine Vassort | Administrateur Système & DevOps',
   description:
     "Portfolio d'Antoine Vassort. Systèmes qui apprennent, automatisent et prédisent. Bachelor RNCP Niveau 6, Paris.",
   keywords: ['Antoine Vassort', 'DevOps', 'Machine Learning', 'Python', 'Next.js', 'Automation'],
   authors: [{ name: 'Antoine Vassort' }],
   alternates: { canonical: '/' },
   openGraph: {
-    title: 'Antoine Vassort — Administrateur Système & DevOps',
+    title: 'Antoine Vassort | Administrateur Système & DevOps',
     url: '/',
     description: 'Systèmes qui apprennent, automatisent et prédisent.',
     type: 'website',
@@ -58,7 +58,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Antoine Vassort — Administrateur Système & DevOps',
+    title: 'Antoine Vassort | Administrateur Système & DevOps',
     description: 'Systèmes qui apprennent, automatisent et prédisent.',
   },
 }

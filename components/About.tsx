@@ -23,7 +23,7 @@ export function About() {
           viewport={viewportConfig}
           transition={{ duration: 0.6, ease: 'easeOut' }}
         >
-          <SectionTitle label="00 — À propos" title="Qui suis-je ?" />
+          <SectionTitle label="00 / À propos" title="Qui suis-je ?" />
         </motion.div>
 
         <div className="grid md:grid-cols-2 gap-16 items-start">
@@ -51,7 +51,7 @@ export function About() {
             className="bg-bg-surface border border-border rounded-sm p-6 space-y-4"
           >
             <p className="font-mono text-xs text-accent tracking-widest uppercase mb-5">
-              — profil.json
+              / profil.json
             </p>
             {stats.map(({ label, value }) => (
               <div
