@@ -9,7 +9,7 @@ export function SectionTitle({ label, title, className = '' }: SectionTitleProps
     <div className={`mb-16 ${className}`}>
       {label && (
         <p className="font-mono text-xs text-text-muted tracking-widest uppercase mb-3">
-          <span className="text-accent mr-2">—</span>
+          <span className="text-accent mr-2">›</span>
           {label}
         </p>
       )}

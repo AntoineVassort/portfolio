@@ -100,7 +100,7 @@ export function Nav() {
         </button>
       </nav>
 
-      {/* Menu mobile — intégré dans le header pour hériter du z-index et de la position */}
+      {/* Menu mobile : intégré dans le header pour hériter du z-index et de la position */}
       <AnimatePresence>
         {menuOpen && (
           <motion.div
@@ -118,7 +118,7 @@ export function Nav() {
                     onClick={closeMenu}
                     className="flex items-center gap-3 font-mono text-xs text-text-muted tracking-widest uppercase py-3 hover:text-accent transition-colors"
                   >
-                    <span className="text-accent">—</span>
+                    <span className="text-accent">›</span>
                     {label}
                   </a>
                 </li>

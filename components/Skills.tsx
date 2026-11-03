@@ -40,7 +40,7 @@ export function Skills() {
           {Object.entries(skills).map(([category, items]) => (
             <motion.div key={category} variants={row}>
               <p className="font-mono text-xs text-text-muted tracking-widest uppercase mb-4">
-                <span className="text-accent mr-2">—</span>
+                <span className="text-accent mr-2">›</span>
                 {category}
               </p>
               <div className="flex flex-wrap gap-3">
