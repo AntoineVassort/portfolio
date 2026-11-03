@@ -21,6 +21,10 @@ import {
   SiScikitlearn,
   SiVercel,
   SiGithubactions,
+  SiSvelte,
+  SiTailwindcss,
+  SiFastapi,
+  SiGodotengine,
 } from 'react-icons/si'
 import {
   TbApi,
@@ -30,6 +34,7 @@ import {
   TbInfinity,
   TbBinaryTree,
   TbDatabase,
+  TbSparkles,
 } from 'react-icons/tb'
 
 export const skillIcons: Record<string, IconType> = {
@@ -61,4 +66,9 @@ export const skillIcons: Record<string, IconType> = {
   'Elo Rating': TbChess,
   Vercel: SiVercel,
   'GitHub Actions': SiGithubactions,
+  Svelte: SiSvelte,
+  'Tailwind CSS': SiTailwindcss,
+  FastAPI: SiFastapi,
+  Godot: SiGodotengine,
+  PixiJS: TbSparkles,
 }

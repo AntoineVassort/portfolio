@@ -122,6 +122,7 @@ export const projects = [
 export const skills = {
   "DevOps & Infra": ["Linux", "Docker", "Kubernetes", "Ansible", "Terraform", "CI/CD", "Nginx", "Bash", "GitLab CI", "Jenkins"],
   "Cloud": ["AWS", "Azure", "GCP", "Vercel", "GitHub Actions"],
-  "Développement": ["Python", "TypeScript", "JavaScript", "React", "Next.js", "Node.js", "Ruby on Rails", "REST API", "SQL"],
+  "Développement": ["Python", "TypeScript", "JavaScript", "React", "Next.js", "Node.js", "Svelte", "Tailwind CSS", "Ruby on Rails", "FastAPI", "REST API", "SQL"],
   "Data & ML": ["Pandas", "Scikit-learn", "LightGBM", "Elo Rating"],
+  "Jeux & Temps réel": ["Godot", "PixiJS"],
 }
