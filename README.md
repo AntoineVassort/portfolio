@@ -24,11 +24,3 @@ Toutes les données affichées (parcours, projets, compétences) sont centralis�
 ## Activité GitHub
 
 Le graphe de contributions est récupéré côté serveur ([`lib/github.ts`](lib/github.ts)) depuis le calendrier public du profil, puis mis en cache et revalidé toutes les heures. Il n'expose que des compteurs par jour, jamais de noms de dépôts ni de code, ce qui permet de montrer l'activité de projets privés (option « Include private contributions » de GitHub). Si GitHub est injoignable, la section se masque.
-
-## Lancer en local
-
-```bash
-npm install
-npm run dev      # http://localhost:3000
-npm run build    # build de production
-```
