@@ -35,10 +35,9 @@ export async function GithubActivity() {
             <div
               role="img"
               aria-label={`${data.total} contributions GitHub sur les 12 derniers mois`}
-              className="grid gap-[3px] min-w-max"
+              className="grid gap-[3px] min-w-[760px]"
               style={{
-                gridTemplateColumns: `repeat(${weeks}, 11px)`,
-                gridTemplateRows: 'repeat(7, 11px)',
+                gridTemplateColumns: `repeat(${weeks}, minmax(0, 1fr))`,
               }}
             >
               {data.days.map((d) => {
@@ -47,7 +46,7 @@ export async function GithubActivity() {
                   <div
                     key={d.date}
                     title={`${d.count} contribution${d.count > 1 ? 's' : ''} le ${d.date}`}
-                    className="rounded-[2px]"
+                    className="aspect-square rounded-[2px]"
                     style={{
                       gridColumn: weekIndex(first, date) + 1,
                       gridRow: date.getUTCDay() + 1,
