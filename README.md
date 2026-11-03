@@ -19,8 +19,6 @@ Développeur Web Full Stack & Administrateur Système DevOps. Vibe coding, déve
 
 Next.js 16 (App Router, pages statiques régénérées toutes les heures) · React 19 · TypeScript · Tailwind CSS v4 · Framer Motion · déployé sur Vercel.
 
-Toutes les données affichées (parcours, projets, compétences) sont centralisées dans [`lib/data.ts`](lib/data.ts).
-
 ## Activité GitHub
 
-Le graphe de contributions est récupéré côté serveur ([`lib/github.ts`](lib/github.ts)) depuis le calendrier public du profil, puis mis en cache et revalidé toutes les heures. Il n'expose que des compteurs par jour, jamais de noms de dépôts ni de code, ce qui permet de montrer l'activité de projets privés (option « Include private contributions » de GitHub). Si GitHub est injoignable, la section se masque.
+Le graphe de contributions est récupéré côté serveur depuis le calendrier public du profil, puis mis en cache et revalidé toutes les heures. Il n'expose que des compteurs par jour, jamais de noms de dépôts ni de code, ce qui permet de montrer l'activité de projets privés (option « Include private contributions » de GitHub). Si GitHub est injoignable, la section se masque.
