@@ -6,7 +6,6 @@ export const personal = {
   tagline: "Je construis des systèmes qui apprennent, automatisent et prédisent.",
   status: "En recherche de CDI",
   location: "Biarritz / Paris",
-  phone: "06 37 95 33 21",
   bio: [
     "Passionné par l'automatisation et la donnée, je conçois des systèmes capables de prendre des décisions intelligentes en temps réel.",
     "Mon approche mêle rigueur DevOps et expérimentation ML, de l'infrastructure aux algorithmes prédictifs.",
