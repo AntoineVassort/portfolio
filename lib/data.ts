@@ -1,7 +1,7 @@
 export const personal = {
   name: "Antoine",
   lastName: "Vassort",
-  title: "Administrateur Système & DevOps",
+  title: "Développeur Web Full Stack & Administrateur Système DevOps",
   subtitle: "Bachelor RNCP Niveau 6 · Paris",
   tagline: "Je construis des systèmes qui apprennent, automatisent et prédisent.",
   status: "En recherche de CDI",
@@ -71,18 +71,6 @@ export const experiences = [
 
 export const projects = [
   {
-    id: "roast-my-lp",
-    title: "Roast My LP",
-    subtitle: "Analyse IA de landing pages",
-    description:
-      "Soumet ta landing page via screenshot ou URL et reçois un verdict IA sans filtre. Mode Ramsay (brutal) ou Sweet (bienveillant) : score /10, analyse visuelle, CTA, hiérarchie et actions concrètes. Privacy-first, zéro stockage.",
-    tags: ["Next.js", "Google Gemini", "OpenAI", "Vision", "TypeScript", "Tailwind"],
-    domain: "AI / Dev Tools",
-    highlight: true,
-    github: "https://github.com/AntoineVassort/roast-my-lp",
-    demo: "https://roastmy-lp.vercel.app",
-  },
-  {
     id: "courtvision",
     title: "CourtVision",
     subtitle: "Probabilités tennis calibrées et prouvées",
@@ -104,6 +92,30 @@ export const projects = [
     domain: "Tooling / Browser",
     highlight: true,
     github: "https://github.com/AntoineVassort/autopip",
+    demo: "",
+  },
+  {
+    id: "singularity",
+    title: "Singularity",
+    subtitle: "Slot en ligne sur Stake Engine",
+    description:
+      "Slot 6×5 à cascades et mécanique signature « Core » (un cœur gravitationnel aspire la couleur dominante en cluster garanti). Moteur mathématique en Python : 5 modes à 96 % de RTP, gain max 10 000×, 300K simulations par mode, conformité vérifiée avec l'outillage officiel. Front en Svelte 5, PixiJS v8 et TypeScript, animations Spine, audio synthétisé, suite de tests automatisés. Publiée sur Stake Engine et jouable directement depuis le casino.",
+    tags: ["Python", "TypeScript", "Svelte 5", "PixiJS", "Stake Engine", "Spine"],
+    domain: "Gaming / Maths",
+    highlight: true,
+    github: "",
+    demo: "",
+  },
+  {
+    id: "project-arena",
+    title: "Project Arena",
+    subtitle: "FPS multijoueur compétitif (en développement)",
+    description:
+      "FPS d'arène inspiré de Quake et Unreal Tournament, visé 200 à 400 FPS. Netcode client/serveur autoritaire (ENet/UDP, serveur dédié headless, compensation de latence), bots, modes FFA, TDM, Instagib, Duel en rounds et parcours de jump procéduraux (bhop, surf). Menus localisés en 4 langues, textures PBR, tests automatisés en ligne de commande. Projet en cours de développement.",
+    tags: ["Godot 4", "GDScript", "Netcode", "ENet", "Multijoueur"],
+    domain: "Gaming / Réseau",
+    highlight: true,
+    github: "",
     demo: "",
   },
 ]

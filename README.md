@@ -1,6 +1,6 @@
 # Antoine Vassort | Portfolio
 
-Administrateur Système & DevOps. Je construis des systèmes qui apprennent, automatisent et prédisent.
+Développeur Web Full Stack & Administrateur Système DevOps. Vibe coding, développement web et applicatif, infrastructure et machine learning. Je construis des systèmes qui apprennent, automatisent et prédisent.
 
 **En ligne : [antoine-vassort.vercel.app](https://antoine-vassort.vercel.app)** · [CV (PDF)](https://antoine-vassort.vercel.app/Antoine_Vassort_2026.pdf) · [LinkedIn](https://linkedin.com/in/antoine-vassort)
 
@@ -10,9 +10,10 @@ Administrateur Système & DevOps. Je construis des systèmes qui apprennent, aut
 
 | Projet | En bref | Lien |
 |---|---|---|
-| **Roast My LP** | Analyse IA de landing pages (Next.js, Gemini, OpenAI) | [démo](https://roastmy-lp.vercel.app) · [code](https://github.com/AntoineVassort/roast-my-lp) |
 | **CourtVision** | Probabilités tennis calibrées (LightGBM, FastAPI), en production sur VM Oracle Cloud + Vercel | [démo](https://courtvision-lovat.vercel.app) |
 | **AutoPiP** | Extension Chrome/Firefox de Picture-in-Picture automatique | [code](https://github.com/AntoineVassort/autopip) |
+| **Singularity** | Slot cluster pays 6×5, en ligne sur Stake Engine (Python, Svelte 5, PixiJS) | jouable depuis le casino |
+| **Project Arena** | FPS multijoueur à netcode autoritaire (Godot 4, GDScript), en cours de développement | projet privé |
 
 ## Stack du site
 

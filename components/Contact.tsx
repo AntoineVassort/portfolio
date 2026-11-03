@@ -22,7 +22,7 @@ export function Contact() {
           viewport={{ once: true, margin: '-80px' }}
           transition={{ duration: 0.6, ease: 'easeOut' }}
         >
-          <SectionTitle label="04 / Contact" title="Me contacter" />
+          <SectionTitle label="05 / Contact" title="Me contacter" />
         </motion.div>
 
         <motion.div

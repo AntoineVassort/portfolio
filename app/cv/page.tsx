@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'CV | Antoine Vassort',
-  description: "Curriculum vitae d'Antoine Vassort, Administrateur Système & DevOps.",
+  description: "Curriculum vitae d'Antoine Vassort, Développeur Web Full Stack & Administrateur Système DevOps.",
 }
 
 export default function CVPage() {

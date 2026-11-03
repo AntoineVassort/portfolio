@@ -9,9 +9,9 @@ const jsonLd = {
   '@type': 'Person',
   name: 'Antoine Vassort',
   url: SITE_URL,
-  jobTitle: 'Administrateur Système & DevOps',
-  description: 'Administrateur Système & DevOps : infrastructure, automatisation et machine learning.',
-  knowsAbout: ['DevOps', 'Linux', 'Docker', 'Kubernetes', 'CI/CD', 'Python', 'Machine Learning', 'Next.js'],
+  jobTitle: 'Développeur Web Full Stack & Administrateur Système DevOps',
+  description: 'Développeur Web Full Stack & Administrateur Système DevOps : développement web et applicatif, vibe coding, infrastructure, automatisation et machine learning.',
+  knowsAbout: ['Développement web', 'Full Stack', 'Vibe coding', 'TypeScript', 'React', 'Next.js', 'Python', 'Machine Learning', 'DevOps', 'Linux', 'Docker', 'Kubernetes', 'CI/CD'],
   sameAs: [
     'https://github.com/AntoineVassort',
     'https://linkedin.com/in/antoine-vassort',
@@ -42,14 +42,14 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: 'Antoine Vassort | Administrateur Système & DevOps',
+  title: 'Antoine Vassort | Développeur Web Full Stack & Administrateur Système DevOps',
   description:
-    "Portfolio d'Antoine Vassort. Systèmes qui apprennent, automatisent et prédisent. Bachelor RNCP Niveau 6, Paris.",
-  keywords: ['Antoine Vassort', 'DevOps', 'Machine Learning', 'Python', 'Next.js', 'Automation'],
+    "Portfolio d'Antoine Vassort, Développeur Web Full Stack & Administrateur Système DevOps. Vibe coding, développement web et applicatif. Systèmes qui apprennent, automatisent et prédisent. Paris.",
+  keywords: ['Antoine Vassort', 'Développeur Full Stack', 'Administrateur Système DevOps', 'Vibe coding', 'Développement web', 'DevOps', 'Next.js', 'React', 'TypeScript', 'Python', 'Machine Learning'],
   authors: [{ name: 'Antoine Vassort' }],
   alternates: { canonical: '/' },
   openGraph: {
-    title: 'Antoine Vassort | Administrateur Système & DevOps',
+    title: 'Antoine Vassort | Développeur Web Full Stack & Administrateur Système DevOps',
     url: '/',
     description: 'Systèmes qui apprennent, automatisent et prédisent.',
     type: 'website',
@@ -58,7 +58,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Antoine Vassort | Administrateur Système & DevOps',
+    title: 'Antoine Vassort | Développeur Web Full Stack & Administrateur Système DevOps',
     description: 'Systèmes qui apprennent, automatisent et prédisent.',
   },
 }
