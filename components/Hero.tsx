@@ -1,6 +1,7 @@
 'use client'
 
 import { motion, useReducedMotion, type Variants } from 'framer-motion'
+import Image from 'next/image'
 import { personal } from '@/lib/data'
 
 const container: Variants = {
@@ -18,7 +19,7 @@ export function Hero() {
 
   return (
     <section className="relative min-h-screen flex items-center px-6">
-      <div className="max-w-6xl mx-auto w-full py-32">
+      <div className="max-w-6xl mx-auto w-full py-32 flex flex-col-reverse md:flex-row md:items-center md:justify-between gap-12">
         <motion.div
           variants={shouldReduce ? undefined : container}
           initial={shouldReduce ? false : 'hidden'}
@@ -76,6 +77,23 @@ export function Hero() {
               ↓ CV PDF
             </a>
           </motion.div>
+        </motion.div>
+
+        {/* Portrait */}
+        <motion.div
+          initial={shouldReduce ? false : { opacity: 0, scale: 0.94 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.8, ease: 'easeOut', delay: shouldReduce ? 0 : 0.3 }}
+          className="shrink-0 self-start md:self-auto"
+        >
+          <Image
+            src="/avatar.webp"
+            alt="Portrait d'Antoine Vassort"
+            width={640}
+            height={640}
+            priority
+            className="w-40 h-40 md:w-64 md:h-64 lg:w-80 lg:h-80 rounded-full border border-border"
+          />
         </motion.div>
       </div>
 
